@@ -9,7 +9,6 @@ package
 	{
 		public function JKokoro()
 		{
-			
 			if(stage)
 			{
 				onAddedToStage()
@@ -17,7 +16,6 @@ package
 			{
 				addEventListener(Event.ADDED_TO_STAGE,onAddedToStage);
 			}
-
 		}
 		
 		private function onAddedToStage(e:Event = null):void
