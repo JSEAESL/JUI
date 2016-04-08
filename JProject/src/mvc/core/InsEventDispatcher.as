@@ -7,7 +7,7 @@ package mvc.core
 	
 	public class InsEventDispatcher extends EventDispatcher
 	{
-		private static var Ins:InsEventDispatcher
+		private static var Ins:InsEventDispatcher;
 
 
 		public static function getInstance():InsEventDispatcher
@@ -23,7 +23,7 @@ package mvc.core
 		{
 		}
 		
-		private var _stage:Stage
+		private var _stage:Stage;
 		public function setStage(stage:Stage):void
 		{
 			if(!stage) return;
@@ -44,8 +44,8 @@ package mvc.core
 			viewLayer = new Sprite();
 			uiLayer = new Sprite();
 			topLayer  = new Sprite();
-			_stage.addChild(viewLayer)
-			_stage.addChild(uiLayer)
+			_stage.addChild(viewLayer);
+			_stage.addChild(uiLayer);
 			_stage.addChild(topLayer)
 		}
 		

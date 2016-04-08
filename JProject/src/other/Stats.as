@@ -1,4 +1,4 @@
-package 
+package other
 {
 	import flash.display.Bitmap;
 	import flash.display.BitmapData;
@@ -38,7 +38,7 @@ package
 		
 		protected var theme : Object = { bg: 0x000033, fps: 0xffff00, ms: 0x00ff00, mem: 0x00ffff, memmax: 0xff0070 };
 		
-		private static var _instance:Stats
+		private static var _instance:Stats;
 		public static function get instance():Stats{
 			
 			return _instance

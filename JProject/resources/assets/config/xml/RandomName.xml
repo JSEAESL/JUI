@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<root nodeName="nodeInfo" inside="1">
+    <nodeInfo nodeName="node" inside="1">
+        <node nodeName="RandomName"/>
+    </nodeInfo>
+    <RandomName id="RandomInfo" nodecount = "81" nodeName="fm" otherDes="性别" inside="1">
+        <fm Type="0" id="0" name = "诺亚" />
+        <fm Type="0" id="1" name = "布莱克" />
+        <fm Type="0" id="2" name = "怀特" />
+        <fm Type="0" id="3" name = "莱德" />
+        <fm Type="0" id="4" name = "布鲁" />
+        <fm Type="0" id="5" name = "格林" />
+        <fm Type="0" id="6" name = "崔佛" />
+        <fm Type="0" id="7" name = "耶罗" />
+        <fm Type="0" id="8" name = "阿姆罗" />
+        <fm Type="0" id="9" name = "罗契" />
+        <fm Type="0" id="10" name = "詹姆斯" />
+        <fm Type="0" id="11" name = "彼得" />
+        <fm Type="0" id="12" name = "山姆" />
+        <fm Type="0" id="13" name = "本" />
+        <fm Type="0" id="14" name = "罗宾" />
+        <fm Type="0" id="15" name = "洛萨" />
+        <fm Type="0" id="16" name = "林肯" />
+        <fm Type="0" id="17" name = "邓肯" />
+        <fm Type="0" id="18" name = "亚历山大" />
+        <fm Type="0" id="19" name = "亚当" />
+        <fm Type="0" id="20" name = "艾伦" />
+        <fm Type="0" id="21" name = "亚瑟" />
+        <fm Type="0" id="22" name = "奥古斯丁" />
+        <fm Type="0" id="23" name = "巴顿" />
+        <fm Type="0" id="24" name = "安得烈" />
+        <fm Type="0" id="25" name = "贾斯丁" />
+        <fm Type="0" id="26" name = "梅林" />
+        <fm Type="0" id="27" name = "奥巴马" />
+        <fm Type="0" id="28" name = "拿破仑" />
+        <fm Type="0" id="29" name = "普京" />
+        <fm Type="0" id="30" name = "阿尔萨斯" />
+        <fm Type="0" id="31" name = "波塞冬" />
+        <fm Type="0" id="32" name = "宙斯" />
+        <fm Type="0" id="33" name = "奎多斯" />
+        <fm Type="0" id="34" name = "杰克" />
+        <fm Type="0" id="35" name = "巴金斯" />
+        <fm Type="0" id="36" name = "甘道夫" />
+        <fm Type="0" id="37" name = "阿拉贡" />
+        <fm Type="0" id="38" name = "甘姆齐" />
+        <fm Type="0" id="39" name = "哈尔迪" />
+        <fm Type="0" id="40" name = "伊欧墨" />
+        <fm Type="0" id="41" name = "墨菲斯" />
+        <fm Type="0" id="42" name = "法拉米尔" />
+        <fm Type="0" id="43" name = "史塔克" />
+        <fm Type="0" id="44" name = "泰温" />
+        <fm Type="0" id="45" name = "提利昂" />
+        <fm Type="0" id="46" name = "克里冈" />
+        <fm Type="0" id="47" name = "劳勃" />
+        <fm Type="0" id="48" name = "伊利达" />
+        <fm Type="0" id="49" name = "琼恩" />
+        <fm Type="0" id="50" name = "桑恩" />
+        <fm Type="1" id="51" name = "吉尔" />
+        <fm Type="1" id="52" name = "简" />
+        <fm Type="1" id="53" name = "莉娅" />
+        <fm Type="1" id="54" name = "莎拉" />
+        <fm Type="1" id="55" name = "丽娜" />
+        <fm Type="1" id="56" name = "艾达" />
+        <fm Type="1" id="57" name = "艾琳" />
+        <fm Type="1" id="58" name = "凯瑟琳" />
+        <fm Type="1" id="59" name = "安娜" />
+        <fm Type="1" id="60" name = "黛西" />
+        <fm Type="1" id="61" name = "吉安娜" />
+        <fm Type="1" id="62" name = "瑟曦" />
+        <fm Type="1" id="63" name = "欧莎" />
+        <fm Type="1" id="64" name = "玛格丽" />
+        <fm Type="1" id="65" name = "莱莎" />
+        <fm Type="1" id="66" name = "吉莉" />
+        <fm Type="1" id="67" name = "伊欧温" />
+        <fm Type="1" id="68" name = "盖亚" />
+        <fm Type="1" id="69" name = "雅典娜" />
+        <fm Type="1" id="70" name = "凯西" />
+        <fm Type="1" id="71" name = "莉莉丝" />
+        <fm Type="1" id="72" name = "莉亚" />
+        <fm Type="1" id="73" name = "伊丽莎白" />
+        <fm Type="1" id="74" name = "维多利亚" />
+        <fm Type="1" id="75" name = "詹妮弗" />
+        <fm Type="1" id="76" name = "杰" />
+        <fm Type="1" id="77" name = "琳达" />
+        <fm Type="1" id="78" name = "贝拉" />
+        <fm Type="1" id="79" name = "希曼" />
+        <fm Type="1" id="80" name = "艾琳娜" />
+        <fm Type="1" id="81" name = "卡罗琳" />
+    </RandomName>
+</root>

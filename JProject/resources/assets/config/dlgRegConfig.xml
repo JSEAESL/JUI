@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<root inside="1" nodeName="nodeInfo">
+	<nodeInfo inside="1" nodeName="node">
+		<node nodeName="dlgList"/>
+	</nodeInfo>
+	<dlgList id="dlg" inside="1" nodeName="dlgConfig" otherDes="!!!">
+		<dlgConfig MedName="core.module.common.dlg.Select.DlgSelectMediator" id="DlgSelectMediator" viewName="core.module.common.dlg.Select.DlgSelectUIView"/>
+		<dlgConfig MedName="core.module.common.dlg.Input.DlgInputMediator" id="DlgInputMediator" viewName="core.module.common.dlg.Input.DlgInputUIView"/>
+		<dlgConfig MedName="core.module.common.dlg.Msg.DlgMsgMediator" id="DlgMsgMediator" viewName="core.module.common.dlg.Msg.DlgMsgUIView"/>
+		<dlgConfig MedName="core.module.common.comDlg.ComDlgChooseMed" id="ComDlgChooseMed" viewName="core.module.common.comDlg.ComDlgChoose"/>
+		<dlgConfig MedName="core.module.common.comDlg.ComDlgMsgMed" id="ComDlgMsgMed" viewName="core.module.common.comDlg.ComDlgMsg"/>
+	</dlgList>
+</root>

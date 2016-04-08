@@ -2,8 +2,8 @@
 <module type="Flex" version="4">
   <component name="FlexBuildConfigurationManager" active="JKokoro">
     <configurations>
-      <configuration name="JKokoro" target-platform="Desktop" pure-as="true" main-class="JKokoro" output-file="JKokoro.swf" output-folder="$MODULE_DIR$/bin-debug">
-        <dependencies>
+      <configuration name="JKokoro" pure-as="true" main-class="JKokoro" output-file="JKokoro.swf" output-folder="$MODULE_DIR$/bin-debug">
+        <dependencies target-player="18.0">
           <entries>
             <entry module-name="MornExtend" build-configuration-name="MornExtend">
               <dependency linkage="Merged" />
@@ -16,11 +16,7 @@
             <entry key="compiler.locale" value="en_US" />
           </map>
         </compiler-options>
-        <packaging-air-desktop use-generated-descriptor="false" custom-descriptor-path="$MODULE_DIR$/src/JKokoro-app.xml" package-file-name="JKokoro">
-          <files-to-package>
-            <FilePathAndPathInPackage file-path="$MODULE_DIR$/src/module/test" path-in-package="module/test" />
-          </files-to-package>
-        </packaging-air-desktop>
+        <packaging-air-desktop />
         <packaging-android />
         <packaging-ios />
       </configuration>

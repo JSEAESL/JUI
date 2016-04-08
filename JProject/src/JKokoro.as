@@ -3,7 +3,7 @@ package
 	import flash.display.Sprite;
 	import flash.events.Event;
 	
-	import mvc.AppInit;
+	import core.AppInit;
 	
 	public class JKokoro extends Sprite
 	{
@@ -20,7 +20,7 @@ package
 		
 		private function onAddedToStage(e:Event = null):void
 		{
-			new AppInit(this.stage)
+			new AppInit(this)
 		}
 	}
 }

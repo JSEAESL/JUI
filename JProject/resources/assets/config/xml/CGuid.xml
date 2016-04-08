@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<root inside="1" nodeName="nodeInfo">
+	<nodeInfo inside="1" nodeName="node">
+		<node nodeName="cGuid"/>
+	</nodeInfo>
+	<cGuid inside="1" nodeName="guid" otherDes="!!!">
+
+
+		<guid id="0" inside="1" nodeName="step">
+			<!--A-引导找导师交任务-->
+			<step id="0" inside="1" layout="relative" nodeName="element"  type="MaskRect" right="198" top="291" w="198" h="30">
+				<!--A01-->
+				<element id="0" layout="relative" type="frameClip" rotation="0" right="130" bottom="130" w="130" h="130" interval="50" url="FrameClip_line_01"/>
+				<element id="1" layout="relative" type="frameClip"  rotation="0" right="110" bottom="264" w="88" h="107"  interval="30" url="FrameClip_arrow"/>
+				<element id="2" layout="relative" type="galTalk" right="597" top="255" w="376" h="113" bgUrl="bg_take" headUrl="bg_npc_H000" offHeadX="10" offHeadY="0" offHeadW="110" offHeadH="96" nameStr="导师·梅伦" offNameX="125" offNameY="13" offNameW="180" offNameH="24" talkLabel="很好年轻人，你出色的完成了任务，点击这里来找到我吧" offTalkX="130" offTalkY="32" offTalkW="225" offTalkH="60" multiline="1" wordWrap="1"/>
+			</step>
+			<step id="1" inside="1" layout="relative" nodeName="element"  type="MaskRect" right="198" top="291" w="198" h="30">
+				<!--A02-->
+				<element id="0" layout="relative" type="galTalk" right="597" top="255" w="376" h="113" bgUrl="bg_take" headUrl="bg_npc_H000" offHeadX="10" offHeadY="0" offHeadW="110" offHeadH="96" nameStr="导师·梅伦" offNameX="125" offNameY="13" offNameW="180" offNameH="24" talkLabel="选择你要提交的任务，和我对话，让我了解你的成绩" offTalkX="130" offTalkY="32" offTalkW="225" offTalkH="60" multiline="1" wordWrap="1"/>
+			</step>
+			<step id="2" inside="1" layout="relative" nodeName="element"  type="MaskRect" right="198" top="291" w="198" h="30">
+				<!--A03-->
+				<element id="0" layout="relative" type="galTalk" right="597" top="255" w="376" h="113" bgUrl="bg_take" headUrl="bg_npc_H000" offHeadX="10" offHeadY="0" offHeadW="110" offHeadH="96" nameStr="导师·梅伦" offNameX="125" offNameY="13" offNameW="180" offNameH="24" talkLabel="点击完成领取奖励吧！这是你应得的" offTalkX="130" offTalkY="32" offTalkW="225" offTalkH="60" multiline="1" wordWrap="1"/>
+			</step>
+		</guid>
+
+		<guid id="2" inside="1" taskID="258" nodeName="step">
+			<!--B-查看背包-->
+			<step id="0" inside="1" layout="relative" nodeName="element" type="MaskRect"  right="130" bottom="130" w="130" h="130">
+				<!--B01-->
+				<element id="0" layout="relative" type="galTalk" right="550" bottom="242" w="376" h="113" bgUrl="bg_take" headUrl="bg_npc_H000" offHeadX="10" offHeadY="0" offHeadW="110" offHeadH="96" nameStr="位面指引者" offNameX="125" offNameY="13" offNameW="180" offNameH="24" talkLabel="你获得了一个钻石袋，点击这里打开你的背包" offTalkX="130" offTalkY="32" offTalkW="225" offTalkH="60" multiline="1" wordWrap="1"/>
+			</step>
+			<step id="1" inside="1" layout="relative" nodeName="element"  type="MaskRect" right="198" top="291" w="198" h="30">
+				<!--B02-->
+				<element id="0" layout="relative" type="galTalk" right="550" bottom="242" w="376" h="113" bgUrl="bg_take" headUrl="bg_npc_H000" offHeadX="10" offHeadY="0" offHeadW="110" offHeadH="96" nameStr="位面指引者" offNameX="125" offNameY="13" offNameW="180" offNameH="24" talkLabel="找到钻石袋，打开它，看看能开出什么" offTalkX="130" offTalkY="32" offTalkW="225" offTalkH="60" multiline="1" wordWrap="1"/>
+			</step>
+		</guid>
+
+		<guid id="4" inside="1" taskID="259" nodeName="step">
+			<!--C-进入战斗-->
+			<step id="0" inside="1" layout="relative" nodeName="element" type="MaskRect"  right="130" bottom="130" w="130" h="130">
+				<!--C01-->
+				<element id="0" layout="relative" type="galTalk" right="550" bottom="242" w="376" h="113" bgUrl="bg_take" headUrl="bg_npc_H000" offHeadX="10" offHeadY="0" offHeadW="110" offHeadH="96" nameStr="位面指引者" offNameX="125" offNameY="13" offNameW="180" offNameH="24" talkLabel="你接到一个战斗任务，点击出击按钮" offTalkX="130" offTalkY="32" offTalkW="225" offTalkH="60" multiline="1" wordWrap="1"/>
+			</step>
+			<step id="1" inside="1" layout="relative" nodeName="element"  type="MaskRect" right="198" top="291" w="198" h="30">
+				<!--C02-->
+				<element id="0" layout="relative" type="galTalk" right="550" bottom="242" w="376" h="113" bgUrl="bg_take" headUrl="bg_npc_H000" offHeadX="10" offHeadY="0" offHeadW="110" offHeadH="96" nameStr="位面指引者" offNameX="125" offNameY="13" offNameW="180" offNameH="24" talkLabel="选择关卡1-2" offTalkX="130" offTalkY="32" offTalkW="225" offTalkH="60" multiline="1" wordWrap="1"/>
+			</step>
+			<step id="2" inside="1" layout="relative" nodeName="element"  type="MaskRect" right="198" top="291" w="198" h="30">
+				<!--C03-->
+				<element id="0" layout="relative" type="galTalk" right="550" bottom="242" w="376" h="113" bgUrl="bg_take" headUrl="bg_npc_H000" offHeadX="10" offHeadY="0" offHeadW="110" offHeadH="96" nameStr="位面指引者" offNameX="125" offNameY="13" offNameW="180" offNameH="24" talkLabel="点击进入战斗" offTalkX="130" offTalkY="32" offTalkW="225" offTalkH="60" multiline="1" wordWrap="1"/>
+			</step>
+		</guid>
+
+		<guid id="6" inside="1" taskID="261" nodeName="step">
+			<!--D-先祖之魂强化-->
+			<step id="0" inside="1" layout="relative" nodeName="element" type="MaskRect"  right="130" bottom="130" w="130" h="130">
+				<!--D01-->
+				<element id="0" layout="relative" type="galTalk" right="550" bottom="242" w="376" h="113" bgUrl="bg_take" headUrl="bg_npc_H000" offHeadX="10" offHeadY="0" offHeadW="110" offHeadH="96" nameStr="位面指引者" offNameX="125" offNameY="13" offNameW="180" offNameH="24" talkLabel="通过吞噬灵魂能量，可以让你的先祖之魂更加强大，选择魂器" offTalkX="130" offTalkY="32" offTalkW="225" offTalkH="60" multiline="1" wordWrap="1"/>
+			</step>
+			<step id="1" inside="1" layout="relative" nodeName="element"  type="MaskRect" right="198" top="291" w="198" h="30">
+				<!--D02-->
+				<element id="0" layout="relative" type="galTalk" right="550" bottom="242" w="376" h="113" bgUrl="bg_take" headUrl="bg_npc_H000" offHeadX="10" offHeadY="0" offHeadW="110" offHeadH="96" nameStr="位面指引者" offNameX="125" offNameY="13" offNameW="180" offNameH="24" talkLabel="选择魂器强化" offTalkX="130" offTalkY="32" offTalkW="225" offTalkH="60" multiline="1" wordWrap="1"/>
+			</step>
+			<step id="2" inside="1" layout="relative" nodeName="element"  type="MaskRect" right="198" top="291" w="198" h="30">
+				<!--D03-->
+				<element id="0" layout="relative" type="galTalk" right="550" bottom="242" w="376" h="113" bgUrl="bg_take" headUrl="bg_npc_H000" offHeadX="10" offHeadY="0" offHeadW="110" offHeadH="96" nameStr="位面指引者" offNameX="125" offNameY="13" offNameW="180" offNameH="24" talkLabel="选择要强化的先祖之魂" offTalkX="130" offTalkY="32" offTalkW="225" offTalkH="60" multiline="1" wordWrap="1"/>
+			</step>
+			<step id="3" inside="1" layout="relative" nodeName="element"  type="MaskRect" right="198" top="291" w="198" h="30">
+				<!--D04-->
+				<element id="0" layout="relative" type="galTalk" right="550" bottom="242" w="376" h="113" bgUrl="bg_take" headUrl="bg_npc_H000" offHeadX="10" offHeadY="0" offHeadW="110" offHeadH="96" nameStr="位面指引者" offNameX="125" offNameY="13" offNameW="180" offNameH="24" talkLabel="点击强化就可以让你的先祖之魂变得更强，注意每次强化都要消耗魂能" offTalkX="130" offTalkY="32" offTalkW="225" offTalkH="60" multiline="1" wordWrap="1"/>
+			</step>
+		</guid>
+
+
+		<guid id="8" inside="1" taskID="269" nodeName="step">
+			<!--E-装备强化-->
+			<step id="0" inside="1" layout="relative" nodeName="element" type="MaskRect"  right="130" bottom="130" w="130" h="130">
+				<!--E01-->
+				<element id="0" layout="relative" type="galTalk" right="550" bottom="242" w="376" h="113" bgUrl="bg_take" headUrl="bg_npc_H000" offHeadX="10" offHeadY="0" offHeadW="110" offHeadH="96" nameStr="铁匠史密斯" offNameX="125" offNameY="13" offNameW="180" offNameH="24" talkLabel="我的手艺可是全大陆上赫赫有名的，让我帮你强化装备可是找对人了，点击装备" offTalkX="130" offTalkY="32" offTalkW="225" offTalkH="60" multiline="1" wordWrap="1"/>
+			</step>
+			<step id="1" inside="1" layout="relative" nodeName="element"  type="MaskRect" right="198" top="291" w="198" h="30">
+				<!--E02-->
+				<element id="0" layout="relative" type="galTalk" right="550" bottom="242" w="376" h="113" bgUrl="bg_take" headUrl="bg_npc_H000" offHeadX="10" offHeadY="0" offHeadW="110" offHeadH="96" nameStr="铁匠史密斯" offNameX="125" offNameY="13" offNameW="180" offNameH="24" talkLabel="选择你要强化的装备" offTalkX="130" offTalkY="32" offTalkW="225" offTalkH="60" multiline="1" wordWrap="1"/>
+			</step>
+			<step id="2" inside="1" layout="relative" nodeName="element"  type="MaskRect" right="198" top="291" w="198" h="30">
+				<!--E03-->
+				<element id="0" layout="relative" type="galTalk" right="550" bottom="242" w="376" h="113" bgUrl="bg_take" headUrl="bg_npc_H000" offHeadX="10" offHeadY="0" offHeadW="110" offHeadH="96" nameStr="铁匠史密斯" offNameX="125" offNameY="13" offNameW="180" offNameH="24" talkLabel="点击强化，当然强化装备我也是要收个成本价的" offTalkX="130" offTalkY="32" offTalkW="225" offTalkH="60" multiline="1" wordWrap="1"/>
+			</step>
+		</guid>
+
+		<guid id="10" inside="1" taskID="279" nodeName="step">
+			<!--F-魂器装备-->
+			<step id="0" inside="1" layout="relative" nodeName="element" type="MaskRect"  right="130" bottom="130" w="130" h="130">
+				<!--F01-->
+				<element id="0" layout="relative" type="galTalk" right="550" bottom="242" w="376" h="113" bgUrl="bg_take" headUrl="bg_npc_H000" offHeadX="10" offHeadY="0" offHeadW="110" offHeadH="96" nameStr="位面指引者" offNameX="125" offNameY="13" offNameW="180" offNameH="24" talkLabel="魂器中封印着灵魂，可以在战斗中爆发强大力量，点击魂器" offTalkX="130" offTalkY="32" offTalkW="225" offTalkH="60" multiline="1" wordWrap="1"/>
+			</step>
+			<step id="1" inside="1" layout="relative" nodeName="element"  type="MaskRect" right="198" top="291" w="198" h="30">
+				<!--F02-->
+				<element id="0" layout="relative" type="galTalk" right="550" bottom="242" w="376" h="113" bgUrl="bg_take" headUrl="bg_npc_H000" offHeadX="10" offHeadY="0" offHeadW="110" offHeadH="96" nameStr="位面指引者" offNameX="125" offNameY="13" offNameW="180" offNameH="24" talkLabel="选择要装备的魂器拖动到魂器装备栏，魂器就装备好了，战斗中按Q和E可使用对应的魂器" offTalkX="130" offTalkY="32" offTalkW="225" offTalkH="60" multiline="1" wordWrap="1"/>
+			</step>
+		</guid>
+
+		<guid id="12" inside="1" taskID="286" nodeName="step">
+			<!--G-进阶-->
+			<step id="0" inside="1" layout="relative" nodeName="element" type="MaskRect"  right="130" bottom="130" w="130" h="130">
+				<!--G01-->
+				<element id="0" layout="relative" type="galTalk" right="550" bottom="242" w="376" h="113" bgUrl="bg_take" headUrl="bg_npc_H000" offHeadX="10" offHeadY="0" offHeadW="110" offHeadH="96" nameStr="铁匠史密斯" offNameX="125" offNameY="13" offNameW="180" offNameH="24" talkLabel="装备强化到一定等级后可进行进阶，点击装备" offTalkX="130" offTalkY="32" offTalkW="225" offTalkH="60" multiline="1" wordWrap="1"/>
+			</step>
+			<step id="1" inside="1" layout="relative" nodeName="element"  type="MaskRect" right="198" top="291" w="198" h="30">
+				<!--G02-->
+				<element id="0" layout="relative" type="galTalk" right="550" bottom="242" w="376" h="113" bgUrl="bg_take" headUrl="bg_npc_H000" offHeadX="10" offHeadY="0" offHeadW="110" offHeadH="96" nameStr="铁匠史密斯" offNameX="125" offNameY="13" offNameW="180" offNameH="24" talkLabel="选择进阶页面" offTalkX="130" offTalkY="32" offTalkW="225" offTalkH="60" multiline="1" wordWrap="1"/>
+			</step>
+			<step id="2" inside="1" layout="relative" nodeName="element"  type="MaskRect" right="198" top="291" w="198" h="30">
+				<!--G03-->
+				<element id="0" layout="relative" type="galTalk" right="550" bottom="242" w="376" h="113" bgUrl="bg_take" headUrl="bg_npc_H000" offHeadX="10" offHeadY="0" offHeadW="110" offHeadH="96" nameStr="铁匠史密斯" offNameX="125" offNameY="13" offNameW="180" offNameH="24" talkLabel="选择你要进阶的装备" offTalkX="130" offTalkY="32" offTalkW="225" offTalkH="60" multiline="1" wordWrap="1"/>
+			</step>
+			<step id="3" inside="1" layout="relative" nodeName="element"  type="MaskRect" right="198" top="291" w="198" h="30">
+				<!--G04-->
+				<element id="0" layout="relative" type="galTalk" right="550" bottom="242" w="376" h="113" bgUrl="bg_take" headUrl="bg_npc_H000" offHeadX="10" offHeadY="0" offHeadW="110" offHeadH="96" nameStr="铁匠史密斯" offNameX="125" offNameY="13" offNameW="180" offNameH="24" talkLabel="点击进阶就可以把你的装备进阶上去了，但是要注意，进阶需要消耗一些特定的材料，没有足够的材料进阶可是不会成功的" offTalkX="130" offTalkY="32" offTalkW="225" offTalkH="60" multiline="1" wordWrap="1"/>
+			</step>
+		</guid>
+		
+		<guid id="14" inside="1" taskID="294" nodeName="step">
+			<!--H-扫荡-->
+			<step id="0" inside="1" layout="relative" nodeName="element" type="MaskRect"  right="130" bottom="130" w="130" h="130">
+				<!--H01-->
+				<element id="0" layout="relative" type="galTalk" right="550" bottom="242" w="376" h="113" bgUrl="bg_take" headUrl="bg_npc_H000" offHeadX="10" offHeadY="0" offHeadW="110" offHeadH="96" nameStr="位面指引者" offNameX="125" offNameY="13" offNameW="180" offNameH="24" talkLabel="对于已经战胜的敌人，可派遣猎魔人公会的特别部队进行扫荡，直接消灭敌人获得奖励,选择出击" offTalkX="130" offTalkY="32" offTalkW="225" offTalkH="60" multiline="1" wordWrap="1"/>
+			</step>
+			<step id="1" inside="1" layout="relative" nodeName="element"  type="MaskRect" right="198" top="291" w="198" h="30">
+				<!--H02-->
+				<element id="0" layout="relative" type="galTalk" right="550" bottom="242" w="376" h="113" bgUrl="bg_take" headUrl="bg_npc_H000" offHeadX="10" offHeadY="0" offHeadW="110" offHeadH="96" nameStr="位面指引者" offNameX="125" offNameY="13" offNameW="180" offNameH="24" talkLabel="选择要扫荡的关卡" offTalkX="130" offTalkY="32" offTalkW="225" offTalkH="60" multiline="1" wordWrap="1"/>
+			</step>
+			<step id="2" inside="1" layout="relative" nodeName="element"  type="MaskRect" right="198" top="291" w="198" h="30">
+				<!--H03-->
+				<element id="0" layout="relative" type="galTalk" right="550" bottom="242" w="376" h="113" bgUrl="bg_take" headUrl="bg_npc_H000" offHeadX="10" offHeadY="0" offHeadW="110" offHeadH="96" nameStr="位面指引者" offNameX="125" offNameY="13" offNameW="180" offNameH="24" talkLabel="可以选择扫荡的次数，点击扫荡即可开始自动战斗，但是要注意，扫荡虽然不需要你自己打，但还是要消耗体力的" offTalkX="130" offTalkY="32" offTalkW="225" offTalkH="60" multiline="1" wordWrap="1"/>
+			</step>
+		</guid>
+
+		<guid id="16" inside="1" taskID="305" nodeName="step">
+			<!--I-宝石-->
+			<step id="0" inside="1" layout="relative" nodeName="element" type="MaskRect"  right="130" bottom="130" w="130" h="130">
+				<!--I01-->
+				<element id="0" layout="relative" type="galTalk" right="550" bottom="242" w="376" h="113" bgUrl="bg_take" headUrl="bg_npc_H000" offHeadX="10" offHeadY="0" offHeadW="110" offHeadH="96" nameStr="位面指引者" offNameX="125" offNameY="13" offNameW="180" offNameH="24" talkLabel="在装备上镶嵌宝石能将宝石中的力量灌注到装备中，极大的提升你的战斗力，选择装备" offTalkX="130" offTalkY="32" offTalkW="225" offTalkH="60" multiline="1" wordWrap="1"/>
+			</step>
+			<step id="1" inside="1" layout="relative" nodeName="element"  type="MaskRect" right="198" top="291" w="198" h="30">
+				<!--I02-->
+				<element id="0" layout="relative" type="galTalk" right="550" bottom="242" w="376" h="113" bgUrl="bg_take" headUrl="bg_npc_H000" offHeadX="10" offHeadY="0" offHeadW="110" offHeadH="96" nameStr="位面指引者" offNameX="125" offNameY="13" offNameW="180" offNameH="24" talkLabel="选择镶嵌" offTalkX="130" offTalkY="32" offTalkW="225" offTalkH="60" multiline="1" wordWrap="1"/>
+			</step>
+			<step id="2" inside="1" layout="relative" nodeName="element"  type="MaskRect" right="198" top="291" w="198" h="30">
+				<!--I03-->
+				<element id="0" layout="relative" type="galTalk" right="550" bottom="242" w="376" h="113" bgUrl="bg_take" headUrl="bg_npc_H000" offHeadX="10" offHeadY="0" offHeadW="110" offHeadH="96" nameStr="位面指引者" offNameX="125" offNameY="13" offNameW="180" offNameH="24" talkLabel="点击一键镶嵌可以自动镶嵌宝石，当然你也可以自行调整" offTalkX="130" offTalkY="32" offTalkW="225" offTalkH="60" multiline="1" wordWrap="1"/>
+			</step>
+		</guid>
+
+	</cGuid>
+</root>

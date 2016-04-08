@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<root inside="1" nodeName="nodeInfo">
+	<nodeInfo inside="1" nodeName="node">
+		<node nodeName="mornSwfList"/>
+	</nodeInfo>
+	<mornSwfList inside="1" nodeName="res" otherDes="!!!">
+
+		<!-- <res id="1" needLoad="1" url="assets/ui.swf"/> -->
+
+
+		<!-- <res id="0" needLoad="1" url="assets/Animation.swf"/>
+		<res id="1" needLoad="1" url="assets/Arttext.swf"/>
+		<res id="2" needLoad="1" url="assets/comp.swf"/>
+		<res id="3" needLoad="1" url="assets/createRole.swf"/>
+		<res id="4" needLoad="1" url="assets/ex.swf"/>
+		<res id="5" needLoad="1" url="assets/hall.swf"/>
+		<res id="6" needLoad="1" url="assets/miniMap.swf"/>
+        <res id="7" needLoad="1" url="assets/newbieguide.swf"/>
+		<res id="8" needLoad="1" url="assets/selectMap.swf"/>
+		<res id="9" needLoad="1" url="assets/share.swf"/>
+		<res id="10" needLoad="1" url="assets/Statistics.swf"/>
+		<res id="11" needLoad="1" url="assets/strengthening.swf"/>
+		<res id="12" needLoad="1" url="assets/Talk.swf"/>
+		<res id="13" needLoad="1" url="assets/TheHorcrux.swf"/>
+		<res id="14" needLoad="1" url="assets/uiLoading.swf"/>
+		<res id="15" needLoad="1" url="assets/task.swf"/>
+		<res id="16" needLoad="1" url="assets/cGuid.swf" des="强制引导使用的资源"/>
+		<res id="17" needLoad="1" url="assets/newFla/RoleInfoPanelView.swf"/> -->
+		<!-- <res id="32" needLoad="1" url="assets/ex.swf"/> -->
+		<!-- <res id="36" needLoad="1" url="assets/newFla/NazoNazo.swf"/> -->
+
+
+
+
+		<!-- <res id="0"  needLoad="1" url="assets/newFla/BackPackView.swf"/> -->
+		<!-- <res id="14" needLoad="1" url="assets/newFla/LoginView.swf"/>
+		<res id="10" needLoad="1" url="assets/newFla/GemSynView.swf"/>
+		<res id="23" needLoad="1" url="assets/newFla/SettlementView.swf"/>
+		<res id="7" needLoad="1" url="assets/newFla/ExtraChestView.swf"/>
+		<res id="27" needLoad="1" url="assets/newFla/TalkWindowView.swf"/>
+		<res id="6" needLoad="1" url="assets/newFla/EquipGrowView.swf"/>
+		<res id="26" needLoad="1" url="assets/newFla/SystemMenuView.swf"/>
+		<res id="29" needLoad="1" url="assets/newFla/TaskPanelView.swf"/>
+		<res id="28" needLoad="1" url="assets/newFla/TaskJournalView.swf"/>
+		<res id="15" needLoad="1" url="assets/newFla/MiniMapView.swf"/> -->
+
+
+
+		<!-- <res id="0" needLoad="1" url="assets/Animation.swf"/>
+		<res id="1" needLoad="1" url="assets/share.swf"/>
+		<res id="2" needLoad="1" url="assets/Arttext.swf"/>
+		
+		<res id="3" needLoad="1" url="assets/comp.swf"/>
+
+		<!-- Jsea -->
+		<!-- <res id="4" needLoad="1" url="assets/newFla/FightAniTFView.swf"/>
+		<res id="5" needLoad="1" url="assets/newFla/FightStateView.swf"/>
+
+		<res id="6" needLoad="1" url="assets/newFla/UiLoadingView.swf"/>
+		<res id="7" needLoad="1" url="assets/newFla/CreatPlayerView.swf"/>
+		<!-- zyd -->
+		<!-- <res id="8" needLoad="1" url="assets/newFla/ItemTipsView.swf"/>
+		<res id="9" needLoad="1" url="assets/newFla/SmallTaskView.swf"/> --> 
+		<!-- gcj -->
+		
+		<!-- <res id="10" needLoad="1" url="assets/newFla/DlgInputView.swf"/>
+		<res id="11" needLoad="1" url="assets/newFla/DlgMsgView.swf"/>
+		<res id="12" needLoad="1" url="assets/newFla/DlgSelectView.swf"/>
+		<res id="13" needLoad="1" url="assets/newFla/PopupDialogView.swf"/>
+
+        <res id="14" needLoad="1" url="assets/newFla/RoleClickPanelView.swf"/>
+
+        <res id="15" needLoad="1" url="assets/Font.swf"/>
+
+        <res id="17" needLoad="1" url="assets/damageAni.swf"/> -->
+
+
+
+
+		<!-- <res id="15" needLoad="1" url="assets/newFla/NpcTalkPanelView.swf"/> -->
+		<!-- <res id="16" needLoad="1" url="assets/newFla/RoleHeadView.swf"/> -->
+		<!-- <res id="17" needLoad="1" url="assets/newFla/SelectMapSweepView.swf"/> -->
+		<!-- <res id="18" needLoad="1" url="assets/newFla/SkillBuilderView.swf"/> -->
+		<!-- <res id="19" needLoad="1" url="assets/newFla/SelectSmallView.swf"/> -->
+
+        <!-- <res id="20" needLoad="1" url="assets/cGuid.swf" des="强制引导使用的资源"/> -->
+		<!-- <res id="21" needLoad="1" url="assets/newFla/RoleInfoPanelView.swf"/> -->
+		<!-- <res id="22" needLoad="1" url="assets/newFla/SelectBigMap.swf"/> -->
+
+		<!-- <res id="23" needLoad="1" url="assets/newFla/HorcruxView.swf"/> -->
+        <!-- <res id="24" needLoad="1" url="assets/newFla/HallView.swf"/> -->
+		<!-- <res id="25" needLoad="1" url="assets/newFla/CreateHeroScene.swf"/> -->
+
+
+	</mornSwfList>
+</root>

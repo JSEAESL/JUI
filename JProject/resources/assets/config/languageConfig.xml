@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<root inside="1" nodeName="nodeInfo">
+	<nodeInfo inside="1" nodeName="node">
+		<node nodeName="DBList"/>
+	</nodeInfo>
+	<DBList id="DBhead" inside="1" nodeName="DB"  url="../data/language/" otherDes="!!!">
+		<!-- <DB Name="common.db" id="0" group="ccccc"/>
+		<DB Name="common2.db" id="1" group="common2"/>
+		<DB Name="sampleLanguage.db" id="2" group="sampleLanguage"/>
+		<DB Name="errorCode.db" id="3" group="errorCode"/> -->
+
+	</DBList>
+</root>

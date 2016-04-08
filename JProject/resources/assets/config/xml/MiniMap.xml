@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<root nodeName="nodeInfo" inside="1">
+	<nodeInfo nodeName="node" inside="1">
+		<node nodeName="miniMap"/>
+	</nodeInfo>
+	<miniMap nodeName="map" otherDes="!!!" inside="1">
+		<map id="2685403138" nodeName="info" inside="1">
+			<info Type="0" id="0" url="Castle_02" />
+		</map>
+		<map id="2687565825" nodeName="info" inside="1">
+			<info Type="0" id="0" url="ui/image/miniMap/maincity_01.png" />
+		</map>
+		<map id="2685469712" nodeName="info" inside="1">
+			<info Type="0" id="0" url="ui/image/miniMap/cave_10.png" />
+		</map>
+		<map id="2685469705" nodeName="info" inside="1">
+			<info Type="0" id="0" url="ui/image/miniMap/cave_09.png" />
+		</map>
+		<map id="2685469207" nodeName="info" inside="1">
+			<info Type="0" id="0" url="ui/image/miniMap/castlenew_17.png" />
+		</map>
+		<map id="2685469208" nodeName="info" inside="1">
+			<info Type="0" id="0" url="ui/image/miniMap/castlenew_18.png" />
+		</map>
+		<map id="2685470209" nodeName="info" inside="1">
+			<info Type="0" id="0" url="ui/image/miniMap/mine_01.png" />
+		</map>
+		<map id="2685469953" nodeName="info" inside="1">
+			<info Type="0" id="0" url="ui/image/miniMap/relic_01.png" />
+		</map>
+		<map id="2685469954" nodeName="info" inside="1">
+			<info Type="0" id="0" url="ui/image/miniMap/relic_02.png" />
+		</map>
+		<map id="2685469703" nodeName="info" inside="1">
+			<info Type="0" id="0" url="ui/image/miniMap/cave_07.png" />
+		</map>
+	</miniMap>
+</root>
+
+

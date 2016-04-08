@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<root nodeName="nodeInfo" inside="1">
+    <nodeInfo nodeName="node" inside="1">
+        <node nodeName="RoleInfoPanel"/>
+        <node nodeName="RoleIcon"/>
+    </nodeInfo>
+    <RoleInfoPanel  nodeName="Info_Tip"  inside="1">
+        <Info_Tip show = "0"  id="0"  key = "ccccc" maxLen = "62"/>
+        <Info_Tip show = "0"  id="1"/>
+        <Info_Tip show = "0"  id="2"/>
+        <Info_Tip show = "0"  id="3"/>
+        <Info_Tip show = "0"  id="4"/>
+        <Info_Tip show = "0"  id="5"/>
+        <Info_Tip show = "0"  id="6"/>
+        <Info_Tip show = "0"  id="7"/>
+        <Info_Tip show = "1,1" style = "{@2}"    id="8"  type = "max_hp"  />
+        <Info_Tip show = "0,1" style = "+{@2}%"  id="9"  type = "hp_addition_rate"  />
+        <Info_Tip show = "0,1" style = "+{@2}%"  id="10" type = "hp_recovery"/>
+        <Info_Tip show = "1,1" style = "{@2}"    id="11" type = "max_power"/>
+        <Info_Tip show = "0,1" style = "+{@2}%"  id="12" type = "power_addition_rate"  />
+        <Info_Tip show = "0,1" style = "+{@2}%"  id="13" type = "power_recovery"/>
+        <Info_Tip show = "1,1" style = "{@2}"    id="14" type = "max_sp"  />
+        <Info_Tip show = "0,1" style = "+{@2}%"  id="15" type = "sp_addition_rate"/>
+        <Info_Tip show = "0,1" style = "+{@2}%"  id="16" type = "sp_recovery"/>
+        <Info_Tip show = "1,1" style = "{@2}"    id="17" type = "max_energy"/>
+        <Info_Tip show = "0,1" style = "+{@2}%"  id="18" type = "energy_addition_rate"/>
+        <Info_Tip show = "0,1" style = "+{@2}%"  id="19" type = "energy_recovery"/>
+
+        <Info_Tip show = "1,2" style = "{@2}"    id="20" type = "general_attack"/>
+        <Info_Tip show = "0,2" style = "+{@2}%"  id="21" type = "general_attack_rate"/>
+        <Info_Tip show = "1,2" style = "{@2}"    id="22" type = "general_penetrate_armor"/>
+        <Info_Tip show = "1,2" style = "{@2}"    id="23" type = "general_hit_level"/>
+        <Info_Tip show = "0,2" style = "+{^@2}%" id="24" type = "general_hit_rate"/>
+        <Info_Tip show = "0,2" style = "+{@2}%"  id="25" type = "general_hit_convert_rate"/>
+        <Info_Tip show = "0,2" style = "+{@2}%"  id="26" type = "general_hit_decrease_param"/>
+        <Info_Tip show = "1,2" style = "{@2}"    id="27" type = "general_crit_level"/>
+        <Info_Tip show = "0,2" style = "+{^@2}%" id="28" type = "general_crit_rate"/>
+        <Info_Tip show = "0,2" style = "+{@2}%"  id="29" type = "general_crit_convert_rate"/>
+        <Info_Tip show = "0,2" style = "+{@2}%"  id="30" type = "general_crit_decrease_param"/>
+        <Info_Tip show = "0,2" style = "+{@2}%"  id="31" type = "general_crit_bonus_level"/>
+        <Info_Tip show = "0,2" style = "+{@2}%"  id="32" type = "general_crit_bonus_rate"/>
+
+        <Info_Tip show = "1,3" style = "{@2}"    id="33" type = "skill_attack"/>
+        <Info_Tip show = "0,3" style = "+{@2}%"  id="34" type = "skill_attack_bonus_rate"/>
+        <Info_Tip show = "1,3" style = "{@2}"    id="35" type = "skill_penetrate_armor"/>
+        <Info_Tip show = "0,3" style = "+{@2}%"  id="36" type = "skill_damage_param1"/>
+        <Info_Tip show = "0,3" style = "+{@2}%"  id="37" type = "skill_damage_param2"/>
+        <Info_Tip show = "1,3" style = "{@2}"    id="38" type = "skill_hit_level"/>
+        <Info_Tip show = "0,3" style = "+{^@2}%" id="39" type = "skill_hit_rate"/>
+        <Info_Tip show = "0,3" style = "+{@2}%"  id="40" type = "skill_hit_convert_rate"/>
+        <Info_Tip show = "0,3" style = "+{@2}%"  id="41" type = "skill_hit_decrease_param"/>
+        <Info_Tip show = "1,3" style = "{@2}"    id="42" type = "skill_crit_level"/>
+        <Info_Tip show = "0,3" style = "+{^@2}%" id="43" type = "skill_crit_rate"/>
+        <Info_Tip show = "0,3" style = "+{@2}%"  id="44" type = "skill_crit_convert_rate"/>
+        <Info_Tip show = "0,3" style = "+{@2}%"  id="45" type = "skill_crit_decrease_param"/>
+        <Info_Tip show = "0,3" style = "+{@2}%"  id="46" type = "skill_crit_bonus_level"/>
+        <Info_Tip show = "0,3" style = "+{@2}%"  id="47" type = "skill_crit_bonus_rate"/>
+        <Info_Tip show = "0,3" style = "+{@2}%"  id="48" type = "hit_elite_bonus_rate"/>
+        <Info_Tip show = "0,3" style = "+{@2}%"  id="49" type = "hit_boss_bonus_rate"/>
+
+        <Info_Tip show = "1,4" style = "{@2}"    id="50" type = "defense"/>
+        <Info_Tip show = "1,4" style = "{^@2}%"  id="51" type = "defense_reducedam_ratio"/>
+        <Info_Tip show = "0,4" style = "+{@2}%"  id="52" type = "defense_convert_rate"/>
+        <Info_Tip show = "0,4" style = "+{@2}%"  id="53" type = "defense_decrease_param"/>
+        <Info_Tip show = "0,4" style = "+{@2}%"  id="54" type = "final_damage_reduction"/>
+        <Info_Tip show = "1,4" style = "{@2}"    id="55" type = "dodge_level"/>
+        <Info_Tip show = "1,4" style = "{^@2}%"  id="56" type = "dodge_rate"/>
+        <Info_Tip show = "0,4" style = "+{@2}%"  id="57" type = "dodge_convert_rate"/>
+        <Info_Tip show = "0,4" style = "+{@2}%"  id="58" type = "dodge_decrease_param"/>
+        <Info_Tip show = "0,4" style = "+{@2}%"  id="59" type = "crit_reducedam_points"/>
+        <Info_Tip show = "0,4" style = "+{^@2}%" id="60" type = "crit_reducedam_rate"/>
+        <Info_Tip show = "0,4" style = "+{@2}%"  id="61" type = "counter_hitback_points"/>
+        <Info_Tip show = "0,4" style = "+{@2}%"  id="62" type = "counter_hitfaint_points"/>
+    </RoleInfoPanel>
+    <RoleIcon  nodeName="Role_Icon"  inside="1" otherDes="1是剑士，2是刺客，3是法师">
+        <Role_Icon  id="0" type = "1" url = "地址"/>
+    </RoleIcon>
+</root>

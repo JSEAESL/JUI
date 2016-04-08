@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<root hasRes="1" xmlName="nodeInfo">
+	<nodeInfo hasRes="1" xmlName="info">
+
+		<info xmlName="MornUINode"/>
+
+		<info xmlName="languageNode"/>
+
+
+		<!-- <info xmlName="configNode"/> -->
+
+
+		<!-- <info xmlName="otherNode"/> -->
+		<!-- <info xmlName="DlgRegNode"/> -->
+
+		<!-- <info xmlName="soundNode"/> -->
+		<!-- <info xmlName="jpgNode"/> -->
+		<!--<info xmlName="regNode"/>-->
+
+	</nodeInfo>
+	<MornUINode hasRes="1" xmlName="Node">
+		<Node id="MornUI" isRes="1" type="CONFIG_TYPE" url="assets/config/mornUILoadList.xml"/>
+	</MornUINode>
+	
+	<languageNode hasRes="1" xmlName="Node">
+		<Node id="DB" isRes="1" type="CONFIG_TYPE" url="assets/config/languageConfig.xml"/>
+	</languageNode>
+
+
+	<!-- <configNode hasRes="1" xmlName="Node">
+		<Node id="proSwf" isRes="1" type="CONFIG_TYPE" url="assets/config/xml/ProSwfList.xml"/>
+		<Node id="temp" isRes="1" type="CONFIG_TYPE" url="assets/config/xml/onOff.xml"/>
+		<Node id="0" isRes="1" type="CONFIG_TYPE" url="assets/config/xml/UiLoading.xml"/>
+		<Node id="1" isRes="1" type="CONFIG_TYPE" url="assets/config/xml/MiniMap.xml"/>
+		<Node id="2" isRes="1" type="CONFIG_TYPE" url="assets/config/xml/RandomName.xml"/>
+		<Node id="3" isRes="1" type="CONFIG_TYPE" url="assets/config/xml/RoleInfoPanel.xml"/>
+		<Node id="4" isRes="1" type="CONFIG_TYPE" url="assets/config/xml/CGuid.xml"/>
+		<Node id="5" isRes="1" type="CONFIG_TYPE" url="assets/config/xml/UiPos.xml"/>
+	</configNode> -->
+
+
+
+
+	<!-- <otherNode hasRes="1" xmlName="Node">
+		<Node id="1" isRes="1" type="XML_TYPE" url="assets/config/txtRes.xml"/>
+	</otherNode> -->
+
+	<!-- <DlgRegNode hasRes="1" xmlName="Node">
+		<Node id="1" isRes="1" type="REG_CONFIG_TYPE" url="assets/config/DlgRegConfig.xml"/>
+	</DlgRegNode> -->
+
+	<!-- <textNode hasRes="1" xmlName="Node">
+		<Node id="0" isRes="1" type="TEST_TYPE" url="assets/config/test.xml"/>
+	</textNode> -->
+
+	<!-- <soundNode hasRes="1" xmlName="Node">
+		<Node id="0" isRes="1" type="XML_TYPE" url="assets/config/mp3/soundRes.xml"/>
+		<Node id="1" isRes="1" type="XML_TYPE" url="assets/config/txtRes.xml"/>
+	</soundNode> 
+	-->
+
+	<!-- 
+	<jpgNode hasRes="1" xmlName="Node">
+		<Node id="1" isRes="1" type="XML_TYPE" url="assets/config/jpg/jpgRes.xml"/>
+	</jpgNode>
+	-->
+
+	<!-- <regNode hasRes="1" xmlName="Node">
+		<Node id="0" isRes="1" type="REG_CONFIG_TYPE" url="assets/config/regConfig.xml"/>
+	</regNode> -->
+</root>

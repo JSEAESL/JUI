@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<root inside="1" nodeName="nodeInfo">
+	<nodeInfo inside="1" nodeName="node">
+		<node nodeName="bottom"/>
+	</nodeInfo>
+	<bottom id="bottom" inside="1" nodeName="Btn" Name="BottomBtn" column="8" offX="52" offY="50" orgX="1130" orgY="740">
+			<Btn id="0" isVisible="1" name="btn0" imageName="image0" openId="1" enable="1" openValue="0" label="" des="商城"/>
+			<Btn id="2" isVisible="1" name="btn2" imageName="image2" openId="1" enable="1" openValue="0" label="" des="战友"/>
+			<Btn id="3" isVisible="1" name="btn3" imageName="image3" openId="1" enable="1" openValue="0" label="" des="背包"/>
+			<Btn id="4" isVisible="1" name="btn4" imageName="image4" openId="1" enable="8" openValue="3" label="" des="魂器"/>
+			<Btn id="5" isVisible="1" name="btn5" imageName="image5" openId="1" enable="1" openValue="0" label="" des="技能"/>
+			<Btn id="6" isVisible="1" name="btn6" imageName="image6" openId="1" enable="1" openValue="0" label="" des="装备"/>
+			<Btn id="7" isVisible="1" name="btn7" imageName="image7" openId="1" enable="1" openValue="0" label="" des="角色"/>
+	</bottom>
+	<bottom id="top" inside="1" nodeName="Btn" Name="TopBtn" column="4" offX="78" offY="50" orgX="970" orgY="50">
+			<Btn id="0" isVisible="1" name="topBtn0" imageName="image0" openId="1" enable="1" openValue="0" label="" des="组队"/>
+			<Btn id="1" isVisible="1" name="topBtn1" imageName="image0" openId="1" enable="0" openValue="0" label="" des="组队"/>
+			<Btn id="2" isVisible="1" name="topBtn2" imageName="image0" openId="1" enable="0" openValue="0" label="" des="组队"/>
+			<Btn id="3" isVisible="1" name="topBtn3" imageName="image0" openId="1" enable="0" openValue="0" label="" des="组队"/>
+	</bottom>
+</root>
+
+<!-- enum StatisticalTermType{
+
+  SI_Class = 1; //职业
+
+  SI_Level = 2; //等级
+
+  SI_Exper = 3; //经验
+
+  SI_Hp = 4; //血
+
+  SI_Sp = 5; //魔法
+
+  SI_Power = 6; //体力
+
+  SI_Energy = 7; //精力
+
+  SI_Task = 8; //任务
+  	openValue 任务ID
+
+} -->

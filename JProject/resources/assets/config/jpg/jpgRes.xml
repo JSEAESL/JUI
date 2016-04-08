@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<root hasRes="1" xmlName="nodeInfo">
+	<nodeInfo hasRes="1" xmlName="info">
+		<info xmlName="jpgNode"/>
+	</nodeInfo>
+	<jpgNode hasRes="1" xmlName="Node">
+		<!-- <Node id="0" isRes="1" type="IMG_TYPE" url="assets/config/jpg/1.jpg"/>
+		<Node id="1" isRes="1" type="IMG_TYPE" url="assets/config/jpg/2.jpg"/>
+		<Node id="2" isRes="1" type="IMG_TYPE" url="assets/config/jpg/3.jpg"/>
+		<Node id="3" isRes="1" type="IMG_TYPE" url="assets/config/jpg/4.jpg"/> -->
+	</jpgNode>
+</root>

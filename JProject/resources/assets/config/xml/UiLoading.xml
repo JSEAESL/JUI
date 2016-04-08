@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<root>
+	<sceneMap MapId="-1" otherDes="默认组">
+		<DesList type="DesList">
+			<Des Id="0" Str="“永远不要向黑暗低头。” ——&lt;i&gt;首席法师梅伦&lt;/i&gt;"/>
+			<Des Id="1" Str="“亚塔尔是大洋彼端的另一片大陆，在千年前因为一场巨大爆炸而崩溃” ——&lt;i&gt;《消失的土地》&lt;/i&gt;"/>
+			<Des Id="2" Str="“灵媒体质可以看到逸散的灵魂并与其沟通” ——&lt;i&gt;《锡拉大陆见闻》&lt;/i&gt;"/>
+			<Des Id="3" Str="“巫师会是一个由恶魔掌控的组织，其成员为了获取力量和利益而为恶魔效力” ——&lt;i&gt;《猎魔人公会宣传册》&lt;/i&gt;"/>
+			<Des Id="4" Str="“哥布林是精灵森林中一种初等智慧种族，以巫医为首脑的部落是他们的主要社会形态” ——&lt;i&gt;《锡拉大陆见闻》&lt;/i&gt;"/>
+			<Des Id="5" Str="“曾有学者怀疑亚塔尔大陆的崩毁与魔族的出现有必然联系” ——&lt;i&gt;《消失的土地》&lt;/i&gt;"/>
+			<Des Id="6" Str="“猎魔人公会是一个以猎杀恶魔为目的建立起的组织，受教廷支持” ——&lt;i&gt;《猎魔人公会宣传册》&lt;/i&gt;"/>
+			<Des Id="7" Str="“圣殿骑士团是教廷的核心武装，由信仰虔诚的精锐战士和祭司组成” ——&lt;i&gt;《锡拉大陆见闻》&lt;/i&gt;"/>
+			<Des Id="8" Str="“不死生物并不是严格意义上的生物，他们实际上是由魔法操纵的傀儡” ——&lt;i&gt;《泛大陆生物图鉴》&lt;/i&gt;"/>
+			<Des Id="9" Str="“矮人在地下建立了辉煌的文明，锻造与酿酒是他们与地表人交流的主要方式” ——&lt;i&gt;《锡拉大陆见闻》&lt;/i&gt;"/>
+		</DesList>
+		<MapList type="MapList">
+			<Map Id="0" Url="ui/image/bigImage/Loading_bg01.jpg"/>
+		</MapList>
+	</sceneMap>
+	<sceneMap MapId="0xA0100001" otherDes="出击吧！英雄们">
+		<DesList type="DesList">
+			<Des Id="0" Str="在普通攻击后按下鼠标右键，可以触发强力的重攻击。"/>
+		</DesList>
+		<MapList type="MapList">
+			<Map Id="0" Url="ui/image/bigImage/Loading_bg01.jpg"/>
+		</MapList>
+	</sceneMap>
+</root>

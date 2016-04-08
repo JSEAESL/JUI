@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<root>
+	<Scene Name="uiloading_scene">
+		<ViewList>
+			<View mediator="core.module.common.miniMap.MiniMapMeditor" view="core.module.common.miniMap.MiniMapView" proxy="MiniMapProxy"/>
+		</ViewList>
+		<DialogList>
+			<Dialog mediator="core.module.common.miniMap.MiniMapMeditor" view="core.module.common.miniMap.MiniMapView" proxy="MiniMapProxy"/>
+		</DialogList>
+	</Scene>
+</root>

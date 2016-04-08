@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<root inside="1" nodeName="nodeInfo">
+	<nodeInfo inside="1" nodeName="node">
+		<node nodeName="PopupCommand"/>
+		<node nodeName="SceneBase"/>
+	</nodeInfo>
+	<PopupCommand inside="1" nodeName="SwfUrl" otherDes="">
+		<SwfUrl id="0" key="core.module.hall.backpack.BackPackExtra.View.ExtraSpendNumView" url="assets/newFla/BackPackView.swf"/>
+		<SwfUrl id="1" key="core.module.hall.task.smalltaskpanel.SmallTaskPanelView" url="assets/newFla/BackPackView.swf"/>
+		<SwfUrl id="2" key="core.module.settle.view.SettleGetItemView" url="assets/newFla/BackPackView.swf"/>
+		<SwfUrl id="3" key="core.module.settle.view.StageClearView" url="assets/newFla/BackPackView.swf"/>
+		<SwfUrl id="4" key="core.module.login.view.LoginView" url="assets/newFla/LoginView.swf"/>
+		<SwfUrl id="5" key="core.module.hall.equipStreng.view.GemSynView" url="assets/newFla/GemSynView.swf"/>
+		<SwfUrl id="6" key="core.module.settle.view.SettlementView" url="assets/newFla/SettlementView.swf"/>
+		<SwfUrl id="7" key="core.module.hall.backpack.BackPackExtra.View.ExtraChestView" url="assets/newFla/ExtraChestView.swf"/>
+		<SwfUrl id="8" key="core.module.talkWindow.view.TalkWindowView" url="assets/newFla/TalkWindowView.swf"/>
+		<SwfUrl id="9" key="core.module.hall.equipStreng.view.EquipStrengView" url="assets/newFla/EquipGrowView.swf"/>
+		<SwfUrl id="10" key="core.module.hall.backpack.view.BackPackView" url="assets/newFla/BackPackView.swf"/>
+		<SwfUrl id="11" key="core.module.fight.SystemMenu.view.SystemMenuView" url="assets/newFla/SystemMenuView.swf"/>
+		<SwfUrl id="12" key="core.module.hall.task.taskPanel.TaskPanelView" url="assets/newFla/TaskPanelView.swf"/>
+		<SwfUrl id="13" key="core.module.hall.task.taskJournal.TaskJournalView" url="assets/newFla/TaskJournalView.swf"/>
+		<SwfUrl id="14" key="core.module.common.miniMap.MiniMapView" url="assets/newFla/MiniMapView.swf"/>
+		<SwfUrl id="15" key="core.module.hall.roleInfoPanel.RoleInfoPanelView" url="assets/newFla/RoleInfoPanelView.swf"/>
+		<SwfUrl id="16" key="core.module.createHeroScene.view.CreateHeroView" url="assets/newFla/CreateHeroScene.swf"/>
+		<SwfUrl id="17" key="core.module.selectMap.SelectMapView" url="assets/newFla/CreatPlayerView.swf"/>
+		<SwfUrl id="18" key="core.module.fight.fightTeamView.FightTeamView" url="assets/newFla/FightTeamView.swf"/>
+		<SwfUrl id="19" key="core.module.hall.roleClickPanel.RoleClickPanelView" url="assets/newFla/RoleClickPanelView.swf"/>
+		<SwfUrl id="20" key="core.module.hall.equipStreng.view.EnchantPanelView" url="assets/newFla/EquipGrowView.swf"/>
+		
+		
+	</PopupCommand>
+	<SceneBase inside="1" nodeName="SceneRegNode" otherDes="loadMode 0直接加载 1场景加载 2 打开时加载">
+		<!-- 登陆场景   uiloading_scene -->
+		<SceneRegNode id="0" loadMode="0" typeName="uiloading_scene"  viewClass="core.module.uiLoading.UiLoadingUIView" medClass="core.module.uiLoading.UiLoadingMeditor" url="assets/negetwFla/UiLoadingView.swf"/>
+		<SceneRegNode id="1" loadMode="0" typeName="uiloading_scene"  viewClass="core.module.cmdLine.CommandLineView" medClass="core.module.cmdLine.CommandLineMediator" />
+		<SceneRegNode id="2" loadMode="0" typeName="uiloading_scene"  viewClass="core.module.cmdLine.CommandWindowView" medClass="core.module.cmdLine.CommandWindowMediator" />
+		<!-- 大厅场景   hall_scene -->
+		<SceneRegNode id="100" loadMode="1" typeName="hall_scene"  viewClass="core.module.hall.hallUi.HallViewUIView" medClass="core.module.hall.hallUi.HallViewMeditor" url="assets/newFla/HallView.swf" />
+
+		<SceneRegNode id="101" loadMode="2" typeName="hall_scene"  viewClass="core.module.hall.horcrux.HorcruxUIView" medClass="core.module.hall.horcrux.HorcruxMediator"  url="assets/newFla/HorcruxView.swf" />
+
+		<SceneRegNode id="102" loadMode="2" typeName="hall_scene"  viewClass="core.module.hall.selectBigMap.SelectBigMapUIView" medClass="core.module.hall.selectBigMap.SelectBigMapMeditor" url="assets/newFla/SelectBigMap.swf" />
+
+
+		<SceneRegNode id="103" loadMode="2" typeName="hall_scene"  viewClass="core.module.cGuid.CGuidUIView" medClass="core.module.cGuid.CGuidMeditor" url="assets/cGuid.swf" />
+
+		<SceneRegNode id="104" loadMode="2" typeName="hall_scene"  viewClass="core.module.hall.selectBigMap.other.SelectSmallMapView" medClass="core.module.hall.selectBigMap.other.SelectSmallMapMediator" url="assets/newFla/SelectSmallView.swf" />
+
+		<SceneRegNode id="105" loadMode="0" typeName="hall_scene"  viewClass="core.module.hall.selectChapter.SelectChapterView" medClass="core.module.hall.selectChapter.SelectChapterMeditor" url="" />
+
+		<SceneRegNode id="106" loadMode="2" typeName="hall_scene"  viewClass="core.module.hall.selectBigMap.other.SelectMapSweepView" medClass="core.module.hall.selectBigMap.other.SelectMapSweepMeditor" url="assets/newFla/SelectMapSweepView.swf" />
+
+		<SceneRegNode id="107" loadMode="2" typeName="hall_scene"  viewClass="core.module.hall.skillBuilder.SkillBuilderView" medClass="core.module.hall.skillBuilder.SkillBuilderMediator" url="assets/newFla/SkillBuilderView.swf" />
+
+		<SceneRegNode id="108" loadMode="2" typeName="hall_scene"  viewClass="core.module.hall.roleHead.RoleHeadViewUIView" medClass="core.module.hall.roleHead.RoleHeadMeditor" url="assets/newFla/RoleHeadView.swf" />
+		
+		<SceneRegNode id="109" loadMode="2" typeName="hall_scene"  viewClass="core.module.hall.npcTalkPanel.NpcTalkView" medClass="core.module.hall.npcTalkPanel.NpcTalkMediator" url="assets/newFla/NpcTalkPanelView.swf" />
+
+		<SceneRegNode id="110" loadMode="0" typeName="hall_scene"  viewClass="core.module.hall.roleClickPanel.RoleClickPanelView" medClass="" url="" />
+		
+		<SceneRegNode id="111" loadMode="2" typeName="hall_scene"  viewClass="core.module.hall.wantedPanel.WantedUIView" medClass="core.module.hall.wantedPanel.WantedMediator" url="assets/newFla/WantedView.swf" />
+		
+		<SceneRegNode id="112" loadMode="2" typeName="hall_scene"  viewClass="core.module.hall.TeamUi.view.TeamUiView" medClass="core.module.hall.TeamUi.model.TeamUIMediator" url="assets/newFla/TeamView.swf" />
+		
+		<SceneRegNode id="113" loadMode="2" typeName="hall_scene"  viewClass="core.module.hall.TeamUi.view.HallTeamView" medClass="core.module.hall.TeamUi.model.HallTeamMediator" url="assets/newFla/HallTeamView.swf" />
+		
+		<SceneRegNode id="114" loadMode="2" typeName="hall_scene"  viewClass="core.module.hall.soulaltar.view.SoulAltarView" medClass="core.module.hall.soulaltar.model.SoulAltarMediator" url="assets/newFla/SoulAltarView.swf" />
+		
+		<SceneRegNode id="115" loadMode="2" typeName="hall_scene"  viewClass="core.module.friend.view.FriendInterfaceView" medClass="core.module.friend.model.FriendInterfaceMediator" url="assets/newFla/FriendInterfaceView.swf" />
+		
+		<SceneRegNode id="116" loadMode="2" typeName="hall_scene"  viewClass="core.module.friend.view.InvitationListView" medClass="core.module.friend.model.InvitationListMediator" url="assets/newFla/InvitationListView.swf" />
+		
+		<SceneRegNode id="117" loadMode="2" typeName="hall_scene"  viewClass="core.module.hall.task.taskdialy.DailyTasksView" medClass="core.module.hall.task.taskdialy.DailyTasksMediator" url="assets/newFla/DailyTasksView.swf" />
+		
+		<SceneRegNode id="118" loadMode="2" typeName="hall_scene"  viewClass="core.module.hall.task.taskdialy.DailyCheckpointView" medClass="core.module.hall.task.taskdialy.DailyCheckpointMediator" url="assets/newFla/DailyCheckpointView.swf" />
+		
+		<SceneRegNode id="119" loadMode="2" typeName="hall_scene"  viewClass="core.module.hall.equipStreng.view.MaterialAvenueView" medClass="core.module.hall.equipStreng.mediator.MaterialAvenueMediator" url="assets/newFla/MaterialAvenueView.swf" />
+		<!-- 战斗场景   fight_scene -->
+
+		<SceneRegNode id="200" loadMode="0" typeName="fight_scene"  viewClass="core.module.fight.popAniView.FightAniView" medClass="core.module.fight.popAniView.PopAniMeditor" url="" />
+
+		<SceneRegNode id="201" loadMode="0" typeName="fight_scene"  viewClass="core.module.fight.FightStateView" medClass="core.module.fight.FightStateMeditor" url="" />
+
+		<SceneRegNode id="202" loadMode="0" typeName="fight_scene"  viewClass="core.module.popupDialog.view.PopupDialogView" medClass="core.module.popupDialog.model.PopupDialogMediator" url="" />
+		
+
+
+	</SceneBase>
+</root>

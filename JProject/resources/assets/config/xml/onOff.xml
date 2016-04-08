@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<root inside="1" nodeName="nodeInfo">
+	<nodeInfo inside="1" nodeName="node">
+		<node nodeName="offList"/>
+		<node nodeName="azList"/>
+	</nodeInfo>
+	<offList inside="1" nodeName="off" otherDes="。。">
+		<off id="0" state="1" viewName="cguiduiview"/>
+	</offList>
+	<azList inside="1" nodeName="az" otherDes="。。">
+		<az az="levelInfo" des="0 正常流程 1 开启关卡页面内所有小点" id="0" state="1"/>
+		<az az="checkOpen" des="0 正常流程 1 开启所有关卡" id="1" state="1"/>
+		<az az="clientTest" des="0 正常流程 1 关闭UI" id="2" state="0"/>
+		<az az="taskOff" des=" 任务模块 0正常流程 1 关闭UI" id="3" state="0"/>
+		<az az="dialogBox" des="对话框 0 正常流程 1 关闭UI" id="4" state="0"/>
+		<az az="disableMode" des="0 正常流程 1 关闭UI" id="5" state="0"/>
+		<az az="talkWindow" des=" 聊天窗口 0 正常流程 1 关闭UI" id="6" state="0"/>
+		<az az="autoFight" des="自动战斗模块 0 正常流程 1 强制开启" id="7" state="1"/>
+		<az az="testMapBtn" des="测试关卡按钮 0 关闭 1 开启" id="8" state="1"/>
+
+
+		<az az="HP_Value" des="血量具体数值 0 关闭 1 开启" id="9" state="1"/>
+		<az az="HP_Pct" des="血量百分比 0 关闭 1 开启" id="10" state="1"/>
+		<az az="HP_Res" des="血量回复值 0 关闭 1 开启" id="11" state="0"/>
+		<az az="HP_Cost" des="血量消耗值 0 关闭 1 开启" id="12" state="1"/>
+
+		<az az="SP_Value" des="法力具体数值 0 关闭 1 开启" id="13" state="1"/>
+		<az az="SP_Pct" des="法力百分比 0 关闭 1 开启" id="14" state="1"/>
+		<az az="SP_Res" des="法力回复值 0 关闭 1 开启" id="15" state="1"/>
+		<az az="SP_Cost" des="法力消耗值 0 关闭 1 开启" id="16" state="0"/>
+		<az az="sweepFight" des="扫荡相关 0 正常流程 1 强制关闭" id="17" state="0"/>
+
+
+	</azList>
+</root>
