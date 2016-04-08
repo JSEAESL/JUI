@@ -10,13 +10,9 @@ package core {
 	{
 		public function AppInit(Main:Sprite)
 		{
-			InsEventDispatcher.getInstance().setStage(Main.stage);
 			NativePathHelper.Trace();
-
-			//Config.uiPath
-			//配置
+			InsEventDispatcher.getInstance().setStage(Main.stage);
 			JBaseResManager.getInstance().firstLoad(next,Main.stage);
-			//Config.uiPath = ResourceSystem.GenerateResourcePath("assets/ui.swf");
 			function next():void
 			{
 				MornUIManager.getInsance().init(Main,start);

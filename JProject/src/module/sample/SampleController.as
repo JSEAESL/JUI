@@ -33,7 +33,7 @@ package module.sample
 		
 		override protected function initListeners():void
 		{
-				addCommand(SampleCommand.SAMPLE_COMMAND_TEST,onSampleCommandTest);
+			addCommand(SampleCommand.SAMPLE_COMMAND_TEST,onSampleCommandTest);
 		}
 		
 		private function onSampleCommandTest(e:CommandEvent):void
