@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="Flex" version="4">
+  <component name="FlexBuildConfigurationManager" active="RubT">
+    <configurations>
+      <configuration name="RubT" target-platform="Desktop" pure-as="true" main-class="RubT" output-file="RubT.swf" output-folder="$DOCUMENTS$/out/production/RubT">
+        <dependencies target-player="11.4">
+          <entries>
+            <entry module-name="MornExtend" build-configuration-name="MornExtend">
+              <dependency linkage="Merged" />
+            </entry>
+          </entries>
+          <sdk name="AIRSDK+4.14+19.0" />
+        </dependencies>
+        <compiler-options />
+        <packaging-air-desktop package-file-name="RubT" />
+        <packaging-android />
+        <packaging-ios />
+      </configuration>
+    </configurations>
+    <compiler-options />
+  </component>
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+    </content>
+    <orderEntry type="jdk" jdkName="AIRSDK+4.14+19.0" jdkType="Flex SDK Type (new)" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="MornExtend" exported="" />
+  </component>
+</module>
