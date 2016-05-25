@@ -68,7 +68,7 @@ package sample
 
             //  スプライトにコンテキストメニューを登録
             contextMenu = menu_cm;
-            //contextMenu.hideBuiltInItems();
+            menu_cm.hideBuiltInItems();
 
         }
 

@@ -2,8 +2,8 @@
 <module type="Flex" version="4">
   <component name="FlexBuildConfigurationManager" active="Live2DApp">
     <configurations>
-      <configuration name="Live2DApp" target-platform="Desktop" pure-as="true" main-class="sample.Live2DSampleApplication" output-file="sample.Live2DSampleApplication.swf" output-folder="$MODULE_DIR$/out/production/Live2DApp">
-        <dependencies target-player="20.0">
+      <configuration name="Live2DApp" target-platform="Mobile" pure-as="true" main-class="sample.Live2DSampleApplication" output-file="sample.Live2DSampleApplication.swf" output-folder="$MODULE_DIR$/out/production/Live2DApp">
+        <dependencies>
           <entries>
             <entry library-id="d5190977-d7ac-4a38-9da4-cfe57ab17a3b">
               <dependency linkage="Merged" />
@@ -12,9 +12,9 @@
           <sdk name="AIRSDK+4.14+19.0" />
         </dependencies>
         <compiler-options />
-        <packaging-air-desktop use-generated-descriptor="false" custom-descriptor-path="$MODULE_DIR$/Live2DSampleApplication-app.xml" package-file-name="Live2DApp" />
-        <packaging-android />
-        <packaging-ios />
+        <packaging-air-desktop />
+        <packaging-android enabled="true" use-generated-descriptor="false" custom-descriptor-path="$MODULE_DIR$/Live2DSampleApplication-app.xml" package-file-name="Live2DApp" />
+        <packaging-ios enabled="true" use-generated-descriptor="false" custom-descriptor-path="$MODULE_DIR$/Live2DSampleApplication-app.xml" package-file-name="Live2DApp" />
       </configuration>
     </configurations>
     <compiler-options />

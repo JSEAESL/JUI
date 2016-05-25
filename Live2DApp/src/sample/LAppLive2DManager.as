@@ -19,7 +19,7 @@ package sample
 		private var models:Vector.<LAppModel>;
 		
 		//  サンプル機能
-		private var count:int = 0;
+		private var count:int = -1;
 		private var reloadFlg:Boolean; // モデル再読み込みのフラグ
 		
 		
