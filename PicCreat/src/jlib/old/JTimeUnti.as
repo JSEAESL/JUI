@@ -14,7 +14,7 @@ package jlib.old
 		
 		public static function getDefTime(delay:uint):String
 		{
-			hours = delay/1000/60/60
+			hours = delay/1000/60/60;
 			minute = delay/1000/60%60;
 			second = delay/1000%60;
 			
