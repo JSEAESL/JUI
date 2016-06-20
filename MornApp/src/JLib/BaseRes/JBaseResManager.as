@@ -75,10 +75,6 @@ package JLib.BaseRes
 			var id:String = xml.@id;
 			var url:String = xml.@url;
 			var type:String = xml.@type;
-			trace("loadResXml")
-			trace(id)
-			trace(url)
-			trace(type)
 			var boo:Boolean  = BaseLoad.setLoadData(JBaseLoadInfo.creatInfo(url,type,id,this,getCallBackFun(type) ));
 
 			if(boo)
