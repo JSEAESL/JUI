@@ -27,7 +27,6 @@ package JLib.BaseRes
 		private function initClass():void
 		{
 			BaseLoad = new JBaseLoad();
-
 		}
 
 		private var edCallBack:Function;

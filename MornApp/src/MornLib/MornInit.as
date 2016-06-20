@@ -15,11 +15,13 @@ package MornLib {
 
         public static function init():void
         {
+            trace("!!!!!!!!MornInit!!!!!!!!!!")
             JBaseResManager.getInstance().firstLoad(next);
         }
 
         private static function next():void
         {
+            Config.uiPath = "assets/ui.swf";
             var ob:Object = JResXmlCache.Instance.getConfigBykey("MornUI");
             var loadUrlList:Array = [];
             for each(var i:Object in ob.res)

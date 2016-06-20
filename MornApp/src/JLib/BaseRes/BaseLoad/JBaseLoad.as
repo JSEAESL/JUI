@@ -52,12 +52,12 @@ package JLib.BaseRes.BaseLoad
 			{
 				return;
 			}
-			trace(m_loadInfo.url);
 			m_urlLoad= new URLLoader();
 			m_urlLoad.dataFormat = URLLoaderDataFormat.BINARY;
 			addEvent();
-			trace("load!!!!!!!")
-			trace(m_loadInfo.url);
+			trace("!!!!!!!!!!!")
+			trace(m_loadInfo.url)
+			m_loading = true;
 			var urlReq:URLRequest = new URLRequest(m_loadInfo.url);
 			m_urlLoad.load(urlReq);
 		}
@@ -92,8 +92,6 @@ package JLib.BaseRes.BaseLoad
 			if(proLoadList.length == 0)
 			{
 				m_loadInfo = null;
-				//JSceneStateMachine.getInstance().changeScene(StartScene.getInstance());
-				removeEvent();
 			}else
 			{
 				m_loadInfo = proLoadList.shift();
