@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<root inside="1" nodeName="nodeInfo">
+	<nodeInfo inside="1" nodeName="node">
+		<node nodeName="SceneBase"/>
+	</nodeInfo>
+	<SceneBase inside="1" nodeName="SceneRegNode" otherDes="loadMode 0直接加载 1场景加载 2 打开时加载">
+		<SceneRegNode id="0" loadMode="0" typeName="uiloading_scene"  viewClass="core.module.uiLoading.UiLoadingUIView" medClass="core.module.uiLoading.UiLoadingMeditor" url="assets/negetwFla/UiLoadingView.swf"/>
+	</SceneBase>
+</root>

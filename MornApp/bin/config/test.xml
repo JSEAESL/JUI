@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<root hasRes="1" xmlName="nodeInfo">
+	<nodeInfo hasRes="1" xmlName="info">
+		<info xmlName="configNode"/>
+	
+	</nodeInfo>
+	<textNode hasRes="1" xmlName="Node">
+		<Node id="0" isRes="1" type="TEST_TYPE" url="assets/config/test.xml"/>
+	</textNode>
+</root>

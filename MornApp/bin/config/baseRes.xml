@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<root hasRes="1" xmlName="nodeInfo">
+	<nodeInfo hasRes="1" xmlName="info">
+		<info xmlName="MornUINode"/>
+		<info xmlName="configNode"/>
+		<!-- <info xmlName="soundNode"/>
+		<info xmlName="otherNode"/> -->
+	</nodeInfo>
+	<MornUINode hasRes="1" xmlName="Node"> 		
+		<Node id="MornUI" isRes="1" type="CONFIG_TYPE" url="config/MornUILoadList.xml"/>
+ 	</MornUINode>
+	<configNode hasRes="1" xmlName="Node">
+		<Node id="0" isRes="1" type="CONFIG_TYPE" url="config/xml/ProSwfList.xml"/>
+	</configNode>
+	<!-- <soundNode hasRes="1" xmlName="Node">
+		<Node id="1" isRes="1" type="XML_TYPE" url="config/txtRes.xml"/>
+	</soundNode>
+	<otherNode hasRes="1" xmlName="Node">
+		<Node id="1" isRes="1" type="XML_TYPE" url="config/txtRes.xml"/>
+	</otherNode> -->
+</root>
