@@ -2,7 +2,7 @@
 <module type="Flex" version="4">
   <component name="FlexBuildConfigurationManager" active="MornApp">
     <configurations>
-      <configuration name="MornApp" target-platform="Desktop" pure-as="true" main-class="MornAPP" output-file="MornAPP.swf" output-folder="$MODULE_DIR$/bin">
+      <configuration name="MornApp" pure-as="true" main-class="MornAPP" output-file="MornAPP.swf" output-folder="$MODULE_DIR$/bin">
         <dependencies target-player="11.4">
           <entries>
             <entry module-name="MornExtend" build-configuration-name="MornExtend">
@@ -15,7 +15,7 @@
           <sdk name="AIRSDK+4.14+19.0" />
         </dependencies>
         <compiler-options />
-        <packaging-air-desktop package-file-name="MornAPP" />
+        <packaging-air-desktop />
         <packaging-android />
         <packaging-ios />
       </configuration>

@@ -27,7 +27,6 @@ package JLib.BaseRes
 		private function initClass():void
 		{
 			BaseLoad = new JBaseLoad();
-
 		}
 
 		private var edCallBack:Function;
@@ -75,10 +74,6 @@ package JLib.BaseRes
 			var id:String = xml.@id;
 			var url:String = xml.@url;
 			var type:String = xml.@type;
-			trace("loadResXml")
-			trace(id)
-			trace(url)
-			trace(type)
 			var boo:Boolean  = BaseLoad.setLoadData(JBaseLoadInfo.creatInfo(url,type,id,this,getCallBackFun(type) ));
 
 			if(boo)

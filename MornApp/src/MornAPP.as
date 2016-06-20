@@ -10,12 +10,15 @@ public class MornAPP extends Sprite {
         if(stage != null)
         {
             init();
+        }else
+        {
+            addEventListener(Event.ADDED_TO_STAGE,addToStage);
         }
-        addEventListener(Event.ADDED_TO_STAGE,addToStage);
     }
 
 	private function addToStage(e:Event):void
     {
+        removeEventListener(Event.ADDED_TO_STAGE,addToStage);
         init();
     }
     private function init():void

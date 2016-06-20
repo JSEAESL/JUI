@@ -52,10 +52,12 @@ package JLib.BaseRes.BaseLoad
 			{
 				return;
 			}
-			trace(m_loadInfo.url)
 			m_urlLoad= new URLLoader();
 			m_urlLoad.dataFormat = URLLoaderDataFormat.BINARY;
 			addEvent();
+			trace("!!!!!!!!!!!")
+			trace(m_loadInfo.url)
+			m_loading = true;
 			var urlReq:URLRequest = new URLRequest(m_loadInfo.url);
 			m_urlLoad.load(urlReq);
 		}
@@ -78,19 +80,18 @@ package JLib.BaseRes.BaseLoad
 
 		private function onDataLoaded(e:Event):void
 		{
-			m_byte = e.currentTarget.data as ByteArray;
+			m_byte = m_urlLoad.data as ByteArray;
 			m_byte.position = 0;
 			trace(m_loadInfo.url  + "二进制加载完成");
 			trace(m_byte.length)
+			removeEvent();
 			var byteLoad:JBaseByteLoad =  JBaseByteLoad.creatByteLoad(m_byte,m_loadInfo);
 			byteLoad.toLoad();
 
 			m_loading = false;
 			if(proLoadList.length == 0)
 			{
-				//m_loadInfo = null;
-				//JSceneStateMachine.getInstance().changeScene(StartScene.getInstance());
-				removeEvent();
+				m_loadInfo = null;
 			}else
 			{
 				m_loadInfo = proLoadList.shift();

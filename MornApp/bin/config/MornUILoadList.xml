@@ -1,9 +1,9 @@
-﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
-<root inside="1" nodeName="nodeInfo">
+﻿<root inside="1" nodeName="nodeInfo">
 	<nodeInfo inside="1" nodeName="node">
 		<node nodeName="mornSwfList"/>
 	</nodeInfo>
 	<mornSwfList inside="1" nodeName="res" otherDes="!!!">
+		<res id="0" needLoad="1" url="assets/share.swf"/>
 		<res id="0" needLoad="1" url="assets/share.swf"/>
 	</mornSwfList>
 </root>
