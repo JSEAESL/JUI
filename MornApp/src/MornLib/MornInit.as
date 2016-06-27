@@ -6,6 +6,10 @@ package MornLib {
     import JLib.BaseRes.JBaseResManager;
     import JLib.BaseRes.JResXmlCache;
 
+    import flash.display.Sprite;
+
+    import flash.display.Stage;
+
     import morn.core.handlers.Handler;
 
     public class MornInit {
@@ -13,15 +17,15 @@ package MornLib {
         {
         }
 
-        public static function init():void
+        public static function init(org:Sprite):void
         {
-            trace("!!!!!!!!MornInit!!!!!!!!!!")
+            trace("!!!!!!!!MornInit!!!!!!!!!!");
+            App.init(org);
             JBaseResManager.getInstance().firstLoad(next);
         }
 
         private static function next():void
         {
-            Config.uiPath = "assets/ui.swf";
             var ob:Object = JResXmlCache.Instance.getConfigBykey("MornUI");
             var loadUrlList:Array = [];
             for each(var i:Object in ob.res)
@@ -36,10 +40,12 @@ package MornLib {
 
         private static function loadComplete(e:* = null):void
         {
+            trace("loadComplete");
         }
 
         private static function progressFun(e:* = null):void
         {
+            trace("progressFun");
         }
     }
 }

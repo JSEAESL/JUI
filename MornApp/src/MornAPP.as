@@ -1,6 +1,9 @@
 package {
 
     import MornLib.MornInit;
+
+    import core.StageManager;
+
     import flash.display.Sprite;
     import flash.events.Event;
 
@@ -23,7 +26,8 @@ public class MornAPP extends Sprite {
     }
     private function init():void
     {
-        MornInit.init();
+        StageManager.getInstance().setStage(this.stage);
+        MornInit.init(this);
     }
 
 }
