@@ -3,7 +3,7 @@
 		<node nodeName="mornSwfList"/>
 	</nodeInfo>
 	<mornSwfList inside="1" nodeName="res" otherDes="!!!">
-		<res id="0" needLoad="1" url="assets/share.swf"/>
-		<res id="0" needLoad="1" url="assets/share.swf"/>
+		<res id="0" needLoad="1" url="assets/Font.swf"/>
+		<res id="1" needLoad="1" url="assets/share.swf"/>
 	</mornSwfList>
 </root>

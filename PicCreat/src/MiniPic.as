@@ -14,6 +14,8 @@ package {
     import flash.system.LoaderContext;
     import flash.utils.ByteArray;
 
+    import jlib.PicPosConst;
+
     public class MiniPic extends Sprite {
         public function MiniPic() {
             super();
@@ -71,8 +73,8 @@ package {
             _sou.draw(_miniMap.bitmapData,new Matrix(1 / 10, 0, 0, 1 / 10, 0, 0));
             _souMap = new Bitmap(_sou);
             addChild(_souMap);
-            _Height = _souMap.height;
-            _Width = _souMap.width;
+            _Height = PicPosConst.creatMaxW(_souMap.height);
+            _Width = PicPosConst.creatMaxW(_souMap.width);
             dispatchEvent(new Event(Event.COMPLETE));
         }
 

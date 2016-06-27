@@ -2,12 +2,12 @@
  * Created by JiangHaiYang on 2016/5/23.
  */
 package {
+    import flash.display.DisplayObject;
     import flash.display.DisplayObjectContainer;
-    import flash.display.Sprite;
     import flash.events.Event;
     import flash.utils.ByteArray;
 
-    public class PicCon extends Sprite {
+    public class PicCon {
         public function PicCon() {
             super();
         }
@@ -29,6 +29,11 @@ package {
             miniPicList = [];
         }
 
+        private var _par:DisplayObjectContainer;
+        public function setPar(par:DisplayObjectContainer):void
+        {
+            _par = par
+        }
 
         public function updata():void
         {
@@ -64,10 +69,9 @@ package {
             {
                 var miniPic:MiniPic = i;
                 var count:int = miniPic.index;
-                var This:DisplayObjectContainer = this;
                 var x:int = count%MaxX* miniPic.Width;
                 var y:int = Math.floor(count/MaxX)* miniPic.Height;
-                Child.addChild(This,miniPic,x,y);
+                Child.addChild(_par,miniPic,x,y);
             }
         }
 
@@ -79,10 +83,9 @@ package {
         {
             var miniPic:MiniPic = e.currentTarget as MiniPic;
             var count:int = miniPic.index;
-            var This:DisplayObjectContainer = this;
             var x:int = count%MaxX* miniPic.Width;
             var y:int = Math.floor(count/MaxX)* miniPic.Height;
-            Child.addChild(This,miniPic,x,y);
+            Child.addChild(_par,miniPic,x,y);
             miniPic.removeEventListener(Event.COMPLETE,AddPic);
             miniPicList.push(miniPic);
         }

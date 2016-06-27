@@ -17,9 +17,6 @@ package
     {
         public function PicCreat()
         {
-            var textField:TextField = new TextField();
-            textField.text = "Hello, World";
-            addChild(textField);
             init()
         }
 

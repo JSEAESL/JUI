@@ -55,10 +55,6 @@ package JLib.BaseRes
 				var resNode:XMLList = dimXml.elements(xmlname);
 				for each(var i:XML in resNode)
 				{
-					trace("getAttributesXml");
-					trace(xmlname);
-					trace(isRes);
-					trace(newXml);
 					getAttributesXml(i,orgXml);
 				}
 			}
@@ -135,10 +131,6 @@ package JLib.BaseRes
 		private function xmlLoadComFun(data:Object,type:String,load:*):void
 		{
 			var xml:XML = data as XML;
-			trace("xmlLoadComFun");
-			trace(data)
-			trace(type)
-			trace(load)
 			getAttributesXml(xml,xml);
 			endCheck();
 		}

@@ -9,8 +9,11 @@ package MornLib {
     import flash.display.Sprite;
 
     import flash.display.Stage;
+    import flash.utils.Dictionary;
 
     import morn.core.handlers.Handler;
+
+    import picCreatR.PicCreatCore;
 
     public class MornInit {
         public function MornInit()
@@ -38,14 +41,36 @@ package MornLib {
                     new Handler(progressFun));
         }
 
+
+        private var loadedDic:Dictionary;
+        public function loadSwf(swf:String,complete:Function):void
+        {
+            if(!loadedDic[swf])
+            {
+                App.loader.loadAssets([swf],
+                        new Handler(complete));
+            }
+            else
+            {
+                complete.apply();
+            }
+        }
+
+        public function saveDic(url:String):void
+        {
+            loadedDic[url] = url;
+        }
+
         private static function loadComplete(e:* = null):void
         {
-            trace("loadComplete");
+            trace("loadComplete " + e);
+            FontInit.init();
+            PicCreatCore.creatCore();
         }
 
         private static function progressFun(e:* = null):void
         {
-            trace("progressFun");
+            //trace("progressFun");
         }
     }
 }

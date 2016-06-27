@@ -38,7 +38,6 @@ package core
 			return _stage;
 		}
 
-		private var guideLayer:Sprite;
 		private var topLayer:Sprite;
 
 		private function init():void
@@ -56,6 +55,11 @@ package core
 
 		}
 
+
+		public function addLayer(ob:DisplayObject):void
+		{
+			topLayer.addChild(ob)
+		}
 
 
 		public function remove(ob:DisplayObject):void

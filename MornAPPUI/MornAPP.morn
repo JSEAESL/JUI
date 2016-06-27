@@ -7,8 +7,8 @@
   <resPublishQuality>80</resPublishQuality>
   <codeExportPath>../MornApp/src/mornUI</codeExportPath>
   <codeImports>import morn.core.components.*;</codeImports>
-  <uiType>0</uiType>
-  <uiExportPath>../MornApp/bin/ui.swf</uiExportPath>
+  <uiType>1</uiType>
+  <uiExportPath>../MornApp/bin/assets/ui.swf</uiExportPath>
   <boxTypes>Box,Container,List,Tab,RadioGroup,ViewStack,Panel,HBox,VBox</boxTypes>
   <pageTypes>View,Dialog</pageTypes>
   <shareResPath/>

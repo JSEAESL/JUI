@@ -1,0 +1,16 @@
+<View width="1024" height="900" sceneColor="0x66666666" layers="1,1,0,0,第 1 层">
+  <Image skin="bg_share_Frame2" layer="1" sizeGrid="5,5,5,5" width="200" height="200" right="10" bottom="10" var="dragImage"/>
+  <Box layers="1,1,0,0,第 1 层" layer="1" var="btnBox" right="10" top="10">
+    <List layers="1,1,0,0,第 1 层" layer="1" repeatX="0" repeatY="5" spaceY="20">
+      <Box layers="1,1,0,0,第 1 层" layer="1" name="render">
+        <Button label="label" skin="btn_random_ red" layer="1"/>
+      </Box>
+    </List>
+  </Box>
+  <Box layers="1,1,0,0,第 1 层" layer="1" x="31" y="45" var="coreView">
+    <Image skin="bg_share_balck" layer="1" sizeGrid="8,8,8,8" width="700" height="800"/>
+    <Box layers="1,1,0,0,第 1 层" layer="1" left="0" bottom="0" var="picBox">
+      <Image skin="bg_share_balck" layer="1" sizeGrid="8,8,8,8" width="600" height="600" bottom="0" left="0" var="pic"/>
+    </Box>
+  </Box>
+</View>
