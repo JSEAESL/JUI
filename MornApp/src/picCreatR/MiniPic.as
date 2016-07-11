@@ -72,8 +72,10 @@ package picCreatR {
             _sou.draw(_miniMap.bitmapData,new Matrix(1 / 10, 0, 0, 1 / 10, 0, 0));
             _souMap = new Bitmap(_sou);
             addChild(_souMap);
-            _Height = PicPosConst.creatMaxW(_souMap.height);
-            _Width = PicPosConst.creatMaxW(_souMap.width);
+
+            Width = PicPosConst.creatMaxW(_souMap.width);
+            Height = PicPosConst.creatMaxH(_souMap.height);
+
             dispatchEvent(new Event(Event.COMPLETE));
         }
 
@@ -98,5 +100,16 @@ package picCreatR {
         {
             return _Width;
         }
+
+        public function set Height(Hegith_:int):void
+        {
+            _Height = Hegith_
+        }
+
+        public function set Width(Width_:int):void
+        {
+            _Width = Width_
+        }
+
     }
 }

@@ -10,7 +10,7 @@
   <Box layers="1,1,0,0,第 1 层" layer="1" x="31" y="45" var="coreView">
     <Image skin="bg_share_balck" layer="1" sizeGrid="8,8,8,8" width="700" height="800"/>
     <Box layers="1,1,0,0,第 1 层" layer="1" left="0" bottom="0" var="picBox">
-      <Image skin="bg_share_balck" layer="1" sizeGrid="8,8,8,8" width="600" height="600" bottom="0" left="0" var="pic"/>
+      <Image skin="bg_share_balck" layer="1" sizeGrid="8,8,8,8" width="700" height="600" bottom="0" left="0" var="pic"/>
     </Box>
   </Box>
 </View>

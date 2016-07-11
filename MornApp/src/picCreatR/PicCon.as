@@ -55,7 +55,7 @@ package picCreatR{
 
         private var miniPicList:Array;
 
-        private var MaxX:int = 4;
+        private var MaxX:int = PicPosConst.Wcount;
 
         public function setMaxX(_MaxX:int):void
         {
@@ -74,6 +74,8 @@ package picCreatR{
                 var y:int = Math.floor(count/MaxX)* miniPic.Height;
                 Child.addChild(_par,miniPic,x,y);
             }
+            _par.scaleX = PicPosConst.sc;
+            _par.scaleY = PicPosConst.sc;
         }
 
         private function addChildMiniPic(miniPic:MiniPic):void
@@ -82,13 +84,17 @@ package picCreatR{
         }
         private function AddPic(e:Event):void
         {
+
+
             var miniPic:MiniPic = e.currentTarget as MiniPic;
             var count:int = miniPic.index;
             var x:int = count%MaxX* miniPic.Width;
             var y:int = Math.floor(count/MaxX)* miniPic.Height;
-            Child.addChild(_par,miniPic,x,y);
             miniPic.removeEventListener(Event.COMPLETE,AddPic);
+            /*Child.addChild(_par,miniPic,x,y);*/
             miniPicList.push(miniPic);
+            removePic();
+            updataList();
         }
 
         private function removePic():void
