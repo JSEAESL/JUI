@@ -68,7 +68,7 @@ package picCreatR{
         {
             for each(var i:MiniPic in miniPicList)
             {
-                var miniPic:MiniPic = i;
+                 var miniPic:MiniPic = i;
                 var count:int = miniPic.index;
                 var x:int = count%MaxX* miniPic.Width;
                 var y:int = Math.floor(count/MaxX)* miniPic.Height;
